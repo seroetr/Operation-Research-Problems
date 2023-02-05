@@ -1,5 +1,8 @@
 ### Operation Research Problems
 - MILP (mixed integer linear programming)
+
+![GitHub Logo](/MILP.png)
+
 - `train.csv` and `test.csv` files can be found via https://www.kaggle.com/competitions/nlp-getting-started/data.
 - Columns in `train.csv' dataset are:
   - id
