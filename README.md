@@ -1,25 +1,20 @@
 ### Operation Research Problems
-- MILP (mixed integer linear programming)
+
+- To give a brief summary, optimization algorithms (operation research) are used to find optimal solutions for these problems.
+- Here, Solvers such as CPLEX, Gurobi, GLPK, CBC, IPOPT, and Couenne are utilized solving problems.
+- In all examples, `Pyomo` framework is used.
+- Theoretical information and course details can be found via https://www.udemy.com/course/optimization-with-python-linear-nonlinear-and-cplex-gurobi/
+
+- There are some problems that you have to solve to seek the solution of optimization problems such as linear programming (LP), mixed-integer programming (MILP), nonlinear programming (NLP), mixed-integer nonlinear programming (MINLP), and constraint programming (CP).
+
 <img src="MILP.PNG"  width="50%" height = "30%">
+
 - Above problem is solved using `MILP.py` file.
 
 
-- `train.csv` and `test.csv` files can be found via https://www.kaggle.com/competitions/nlp-getting-started/data.
 - Columns in `train.csv' dataset are:
   - id
-  - text
-  - location
-  - keyword
-  - target
- - You will be predicting if tweet is a real disaster (1) or not (0).
- - Machine learning models such as LightGBM, XGBoost, RandomForest, and CatBoost Classifiers have been used to predict the disaster tweets.
- - RandomizedSearchCv is used to tune hyperparameters for models.
- - There is a commented out code in jupyter notebook in which you can `combine other features with tf-idf matrix` using `hstack` just in case of use if wanted.
- 
-Models | LGBMClassifier | CatBoostClassifier | XGBClassifier | RandomForestClassifier
-| :---: | :---: | :---: | :---: | :---:
-Accuracy  | 0.7634 | 0.7706 | 0.7648 | 0.7873
 
-- RandomForestClassifier has demonstrated higher accuracy than rest of the models. Therefore, Test data is evaluated using RandomForestClassifier.
+
 
 
