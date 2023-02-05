@@ -3,6 +3,8 @@
 
 ![GitHub Logo](/Operation-Research-Problems/MILP.png)
 
+![Image alt text](/MILP.pngdemo.png?raw=true "Image title")
+
 - `train.csv` and `test.csv` files can be found via https://www.kaggle.com/competitions/nlp-getting-started/data.
 - Columns in `train.csv' dataset are:
   - id
